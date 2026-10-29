@@ -10,7 +10,7 @@ will want to try a few.
 | # | Item | Qty | Approx. cost | Notes |
 |---|---|---|---|---|
 | 1 | **Raspberry Pi Pico H** (RP2040, headers pre-soldered) | 2 | $6 each | One to use, one spare / second independent unit. Pico 2 is fine too. Avoid "Pico W" (Wi-Fi radio is a noise source you don't need). |
-| 2 | **Micro-USB cable, data-capable** | 1 | $5 | Many cheap cables are charge-only. Short (≤1 m) is better for noise. |
+| 2 | **USB-C to micro-USB cable, data-capable** | 1 | $6 | USB-C end to the PC, micro-USB end to the Pico. Many cheap cables are charge-only; check the listing says "data" or "sync". Short (≤1 m) is better for noise. |
 | 3 | **Solderless breadboard**, 830 tie points | 1 | $7 | Half-size (400) also works but gets cramped with the tin. |
 | 4 | **Jumper wire kit** (male-male, assorted lengths) | 1 kit | $6 | Pre-cut solid-core wires lie flat and pick up less interference than long flexible jumpers. |
 | 5 | **2N3904 NPN transistors** | 10 | $3 for 10 | The noise source *and* the gain stage. BC547 or 2N2222 also work; 2N3904 is the one documented in the build guide. |
