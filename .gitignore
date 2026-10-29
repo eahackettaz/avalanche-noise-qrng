@@ -1,0 +1,29 @@
+# Raw and processed captures are large; the manifest in experiment/ records them instead.
+data/*
+!data/README.md
+
+# Downloaded / built third-party tools (NIST STS, SP800-90B, dieharder)
+tools/src/
+tools/build/
+tools/bin/
+
+# Firmware build output
+firmware/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Large intermediate test outputs (STS writes thousands of files)
+analysis/work/
+results/raw_tool_output/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
